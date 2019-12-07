@@ -34,3 +34,38 @@
     top: -15px;
     left: 40%;
 }
+
+@media screen and (max-width: 414px) {
+    .container {
+        height: 220px;
+        width: 350px;
+        margin: 100px auto;
+        background: grey;
+        position: relative;
+        padding: 55px 20px;
+        border-radius: 5px;
+    }
+    
+    #clock {
+        background: lightgray;
+        text-align: center;
+        font-size: 30px;
+        padding: 40px;
+        font-family: 'Orbitron';
+        border-radius: 5px;
+    }
+    
+    .badge {
+        background: rgb(209, 8, 41);
+        color: white;
+        text-transform: uppercase;
+        position: absolute;
+        padding: 5px;
+        width: 85px;
+        border-radius: 5px;
+        top: -15px;
+        left: 40%;
+    }
+
+
+}
